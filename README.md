@@ -15,11 +15,12 @@ which is currently the only place where human genetic variation on this older as
     
     python3 sequenceAlignment.py
     
-#### Important Note
+### Important:
 This program requires an email address and NCBI API key. To obtain a key and make an account,
 visit: https://www.ncbi.nlm.nih.gov/account/, then change the placeholders for Entrez.api_key and Entrez.email, near the top of 
 sequenceAlignment.py to your ownn personal API key and email address.
     
+## sequenceAlignment
 Currently, only genomic 23andMe tab-delimited files are suitable input data.
 23andMe is still using human genome build 37, which makes it necessary to
 convert NCBI genomic SNP locations data from hg38 to hg37. This is done with
