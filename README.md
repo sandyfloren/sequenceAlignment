@@ -9,8 +9,7 @@ it will be necessary to completely reimplement this part of the code in order to
 which is currently the only place where human genetic variation on this older assembly is still reported by NCBI.
 
 #### Usage
-Example:
-    
+
     python3 sequenceAligment.py -gI 79068 -acc NM_001080432.2 -f phylip
     exampleGenomeFile.txt outputFile.txt
     
