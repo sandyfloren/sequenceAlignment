@@ -15,6 +15,11 @@ which is currently the only place where human genetic variation on this older as
     
     python3 sequenceAlignment.py
     
+#### Important Note
+This program requires an email address and NCBI API key. To obtain a key and make an account,
+visit: https://www.ncbi.nlm.nih.gov/account/, then change the placeholders for Entrez.api_key and Entrez.email, near the top of 
+sequenceAlignment.py to your ownn personal API key and email address.
+    
 Currently, only genomic 23andMe tab-delimited files are suitable input data.
 23andMe is still using human genome build 37, which makes it necessary to
 convert NCBI genomic SNP locations data from hg38 to hg37. This is done with
@@ -24,10 +29,6 @@ Other important information is retrieved from NCBI databases using
 Biopython's Entrez, and sequence manipulation and alignment uses other Bio
 modules, including SeqIO, AlignIO, etc: https://biopython.org,
 Copyright 1999-2003 by Jeffrey Chang.
-
-This program requires an email address and
-NCBI API key. To obtain a key and make an account,
-visit: https://www.ncbi.nlm.nih.gov/account/
 
 All the SNPs in a given mRNA sequence can be found on dbSNP's GeneView page,
 which provides a batch query service that seems to be broken. Because of
