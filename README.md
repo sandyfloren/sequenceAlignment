@@ -10,8 +10,9 @@ which is currently the only place where human genetic variation on this older as
 
 #### Usage
 Example:
+    
     python3 sequenceAligment.py -gI 79068 -acc NM_001080432.2 -f phylip
-        exampleGenomeFile.txt outputFile.txt
+    exampleGenomeFile.txt outputFile.txt
     
     python3 sequenceAlignment.py
     
